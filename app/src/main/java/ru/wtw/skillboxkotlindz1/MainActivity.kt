@@ -23,12 +23,12 @@ class MainActivity : AppCompatActivity(), View.OnClickListener  {
 
         this.longButton = findViewById(R.id.buttonLong)
         this.longButton!!.setOnClickListener {
-                Log.i("DZ1", "Long button pressed")
+                Log.i("DZ1", "Long button" + " "+resources.getString(R.string.pressed))
         }
     }
 
     override fun onClick(v: View?) {
-        Log.i("DZ1", "Left button pressed")
+        Log.i("DZ1", "Left button " + resources.getString(R.string.pressed))
     }
 
     private fun customOnClick() {

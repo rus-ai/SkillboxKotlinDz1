@@ -1,6 +1,7 @@
 <resources>
-    <string name="app_name">SkillboxKotlinDz1</string>
-    <string name="button">Long Button</string>
-    <string name="button2">Left button</string>
-    <string name="button3">Right Button</string>
+    <string name="app_name" translatable="false">SkillboxKotlinDz1</string>
+    <string name="button" translatable="false">Long Button</string>
+    <string name="button2" translatable="false">Left button</string>
+    <string name="button3" translatable="false">Right Button</string>
+    <string name="pressed">pressed</string>
 </resources>
